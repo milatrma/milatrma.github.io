@@ -1,0 +1,78 @@
+header {
+  background-image: url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+  background-size: 110%;
+  height: 320px;
+  width: 50%;
+/*   position: relative; */
+/*   flex-direction: center; */
+  font-family: 'Abril Fatface', cursive;
+  color: #222; 
+  margin-left: 470px;
+}
+header p {
+ padding: 110px 20px 10px 450px;
+  
+}header, H1 H2 { 
+  font-size: 150%;
+  }
+
+
+ul, li {
+  font-family: 'Josefin Sans', sans-serif;
+  color: grey;
+  font-size: 20px;
+}
+ul {
+  margin: 20px 500px 20px 500px;
+  
+  
+}  
+li {
+  margin: 0 500px 0 570px;
+  list-style-type: square;
+  
+  
+  }
+ 
+blockquote {
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  background: #222;
+  font-size: 55px;
+  margin: 0 500px 30px 500px;
+  position: relative;
+  top: 10px;
+  padding: 30px 10px;
+}
+blockquote::before {
+  content: ' ❝ ';
+  font-family: 'Abril Fatface', cursive;
+  font-size: 55px;
+  position: relative;
+  top: -25px;
+} 
+
+h3, h4, h5{
+  font-family: 'Merriweather', serif;
+  
+}
+h3 {
+  text-transform: uppercase;
+  font-size: 30px;
+  margin: 60px 550px 20px 550px;
+}
+h4 {
+  margin: 40px 550px 10px 550px;
+  font-size: 20px;
+}
+h5 {
+  margin: 0 550px 5px 550px;
+  font-size: 16px; 
+}
+
+
+section {
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0 550px 30px 550px;
+/*   font-size: 10px; */
+}
